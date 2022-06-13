@@ -1,8 +1,8 @@
 package domain
 
 import (
-	"banking-lib/errs"
-	"banking-lib/logger"
+	"github.com/ashishjuyal/banking-lib/errs"
+	"github.com/ashishjuyal/banking-lib/logger"
 
 	"github.com/dgrijalva/jwt-go"
 )

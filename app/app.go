@@ -3,12 +3,13 @@ package app
 import (
 	"banking-auth/domain"
 	"banking-auth/service"
-	"banking-lib/logger"
 	"fmt"
 	"log"
 	"net/http"
 	"os"
 	"time"
+
+	"github.com/ashishjuyal/banking-lib/logger"
 
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/gorilla/mux"

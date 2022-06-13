@@ -3,9 +3,10 @@ package app
 import (
 	"banking-auth/dto"
 	"banking-auth/service"
-	"banking-lib/logger"
 	"encoding/json"
 	"net/http"
+
+	"github.com/ashishjuyal/banking-lib/logger"
 )
 
 type AuthHandler struct {

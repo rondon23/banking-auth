@@ -3,9 +3,10 @@ package service
 import (
 	"banking-auth/domain"
 	"banking-auth/dto"
-	"banking-lib/errs"
-	"banking-lib/logger"
 	"fmt"
+
+	"github.com/ashishjuyal/banking-lib/errs"
+	"github.com/ashishjuyal/banking-lib/logger"
 
 	"github.com/dgrijalva/jwt-go"
 )
